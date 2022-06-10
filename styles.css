@@ -336,6 +336,7 @@ section .content__ .img-article3 {
 .content_productos {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card_ {
@@ -369,6 +370,35 @@ section .content__ .img-article3 {
 
 
 
+/* Pag "Ofertas" */
+
+
+.Content_ofertas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Sub_content {
+    display: flex;
+    width: 1200px ;
+    height: auto;
+    justify-content: center;
+    padding-left: 130px;
+
+}
+
+.Sub_content:hover{
+    color: red;
+}
+
+.title_ofertas{
+    font-size: 30px;
+    font-family: fantasy;
+    margin: 40px;
+
+    
+}
 
 
 @media only screen and (max-width:320px) 
@@ -554,6 +584,29 @@ aside .aside__ {
     height: 30px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px ;
+}
+
+
+/* Pag "Ofertas" */
+
+
+.Content_ofertas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Sub_content {
+    display: flex;
+    width: 200px ;
+    height: auto;
+}
+
+.title_ofertas{
+    font-size: 25px;
+    font-family: fantasy;
+    margin: 40px;
+    
 }
 
 
