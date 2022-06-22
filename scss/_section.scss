@@ -1,0 +1,20 @@
+section {
+    height: auto; 
+    .content__ {
+        grid-area: section; 
+        .content__article{
+            .title-article {
+                display: grid; }
+            .img-article1 {
+                width: 1220px;
+                height: 350px; }
+            .img-article2 {
+                width: 1220px;
+                height: 350px; }
+            .img-article3 {
+                width: 1220px;
+                height: 350px; }
+            
+        }
+    }
+}

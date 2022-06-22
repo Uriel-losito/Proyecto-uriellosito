@@ -1,0 +1,40 @@
+nav{
+    .flex-nav {
+        grid-area: nav;
+        width: auto;
+        .lista-nav {
+            display: flex;
+            width: auto;
+            height: 75px;
+            align-items: center;
+            flex-direction: row;
+            font-family: fantasy;
+            justify-content: space-evenly;
+            /*----gradiente----*/
+            background: #d4e4ef;
+            background: -moz-linear-gradient(top, #d4e4ef 0%, #86aecc 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, #d4e4ef 0%, #86aecc 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, #d4e4ef 0%, #86aecc 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc',GradientType=0 );
+            /* IE6-9 */
+            .li-nav {
+                width: 95px;
+                height: 27px;
+                font-size: 19px;
+                font-family: fantasy;
+                list-style: none;
+                align-content: center;
+                border-radius: 15px;
+                color: black; 
+                .direccion__ {
+                    text-decoration: none;
+                    color: black; }
+                .li-nav:hover {
+                    background-color: white; }   
+            }
+         }
+    }
+}

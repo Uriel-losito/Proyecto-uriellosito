@@ -1,0 +1,35 @@
+footer{
+    .footer__ {
+        grid-area: aside;
+        display: flex;
+        width: auto;
+        height: 200px;
+        align-items: center;
+        justify-content: space-evenly;
+        background: beige;
+        /*----gradiente----*/
+        background: #feffff;
+        background: -moz-linear-gradient(top, #feffff 0%, #d2ebf9 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #feffff 0%, #d2ebf9 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #feffff 0%, #d2ebf9 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#d2ebf9',GradientType=0 );
+        /* IE6-9 */ 
+        .footer-title {
+            height: 30px;
+            border: 15px;
+            font-family: fantasy; 
+        }
+        .list-footer {
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+            padding: 50px;
+            font-family: fantasy; 
+            .li-foo {
+                margin: 20px; }
+        }
+    }
+}
