@@ -2,14 +2,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="Bicicletas, bmx, paseos en bicicletas, pasa tiempos, diversion, deportes">
-    <meta name="description" content="ventas de bicicletas por mayor y menor, a un costo accesible para nuestros clientes. ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bikepower</title>
+    <meta name="keywords" content="Bicicletas, deportes, accesorios, bmx, ofertas, productos, precios economicos ">
+    <meta name="description" content="Somos BikePower una tienda online dedicada a la venta de bicicletas y accesorios economicos al alcance de todos!">
+    <title>BikePower</title>
+    <link rel="icon" href="img/bicicleta-logo.png">
     <link rel="stylesheet" href="./css/styles.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
     <div class="conteiner__">
@@ -17,41 +17,43 @@
             <div class="header__content">
                 <div class="header-content1">
                     
-                    <img class="logo-header" src="img/logo-bike.jpg" alt="logo">
+                    <img class="logo-header" src="img/logo-bike.jpg" alt="Logo">
            
                     <h1 class="animate__animated animate__bounce" class="title-header" >Bikepower</h1>
             
-            
                     <input class="search-header" placeholder="Search">
             
+                    <img class="user-header" src="img/usuario.png" alt="User">
             
-                    <img class="user-header" src="img/usuario.png" alt="user">
-            
-            
-                    <img class="carrito-header" src="img/carrito.png" alt="carrito">
+                    <img class="carrito-header" src="img/carrito.png" alt="Carrito">
                 </div>
             </div>
         </header>
-        <nav>
-            <div class="flex-nav">
-                <ul class="lista-nav">
-                    <li class="li-nav"> <a class="direccion__" href="index.html">inicio</a></li>
-                    <li class="li-nav"> <a class="direccion__" href="htmls/productos.html">productos</a></li>
-                    <li class="li-nav"> <a class="direccion__" href="htmls/acercadenosotros.html">nosotros</a></li>
-                    <li class="li-nav"> <a class="direccion__" href="htmls/ofertas.html"> ofertas</a></li>
-                    <li class="li-nav"> <a class="direccion__" href="htmls/contacto.html">contacto</a></li>
-                </ul>
+        <nav class="navbar navbar-expand-lg " style="background-color: #b0cbdf; height: 75px; font-family: fantasy;">
+            <div class="container-fluid" class="mx-auto" style="width: 850px;" >
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav" >
+                    <a class="nav-link active m-1 p-5 fs-5"  href="index.html">Inicio</a>
+                    <a class="nav-link active m-1 p-5 fs-5"  href="./htmls/productos.html">Productos<a>
+                    <a class="nav-link active m-1 p-5 fs-5" href="./htmls/acercadenosotros.html">Nosotros</a>
+                    <a class="nav-link active m-1 p-5 fs-5" href="./htmls/ofertas.html">Ofertas</a>
+                    <a class="nav-link active m-1 p-5 fs-5" href="./htmls/contacto.html">Contacto</a>
+                </div>
+              </div>
             </div>
         </nav>
         <section>
             <article class="content__">
-                <div class="content__article">
+                <div class="content__article"  >
                     <h3 class="title-article">ver mas</h3>
-                    <img class="img-article1" src="img/article1.jpg" alt="mtb">
+                    <img class="img-article1" src="img/article1.jpg" alt="Mtb">
                     <h3 class="title-article">ver mas</h3>
-                    <img class="img-article2" src="img/article2.jpg" alt="mtb">
+                    <img class="img-article2" src="img/article2.jpg" alt="Ruta">
                     <h3 class="title-article">ver mas</h3>
-                    <img class="img-article3" src="img/article-bmx.jpg" alt="mtb">
+                    <img class="img-article3" src="img/article-bmx.jpg" alt="Bmx">
                 </div>
             </article>
         </section>
@@ -61,15 +63,16 @@
         </div>
         </aside>
         <footer>
-        <div class="footer__">
-            <h3 class="footer-title">Redes sociales</h3>
+            <div class="footer__">
+                <h3 class="footer-title">Redes Sociales</h3>
                 <ul class="list-footer">
-                    <li class="li-foo">instagram</li>
-                    <li class="li-foo">facebook</li>
-                    <li class="li-foo">twitter</li>
+                    <li class="li-foo"><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                    <li class="li-foo"><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                    <li class="li-foo"><a href="https://twitter.com/?lang=es" target="_blank">Twitter</a></li>
                 </ul>
-        </div>
+            </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     </div>
 </body>
 </html>

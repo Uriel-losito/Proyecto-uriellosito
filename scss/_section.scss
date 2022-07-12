@@ -2,7 +2,6 @@ section {
     height: auto; 
     .content__ {
         grid-area: section; 
-        .content__article{
             .title-article {
                 display: grid; }
             .img-article1 {
@@ -15,6 +14,5 @@ section {
                 width: 1220px;
                 height: 350px; }
             
-        }
     }
 }
